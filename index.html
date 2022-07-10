@@ -2,13 +2,243 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burning man</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>CV</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>Burning man</h1>
-    <p>August 28</p>
+<body> 
+  <div class="main-container">
+    <header class="header">
+      <div class="header-burger">
+        <div class="burger">
+          <div class="hamburger">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </div>
+      </div>
+    <nav class="header-nav">
+      <ul class="nav-items">
+        <li class="nav-item"><a class="nav-link" href="#about-me">About me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#code-example">Code Example</a></li>
+        <li class="nav-item"><a class="nav-link" href="#my-projects">My projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hobbis">Hobbis</a></li>
+      </ul>
+    </nav>
+   </header>
+   <main class="main">
+     <div class="main-left-side">
+       <figure class="left-side-avatar-block">
+         <img class="left-side-avatar" src="./assets/avatar.jpg" alt="avatar">
+       </figure>
+       <section class="left-side-contacts" id="contacts">
+         <div class="contacts-container">
+           <h2 class="section-title-left">Contacts</h2>
+           <ul class="contacts-list">
+             <li class="contacts-item">
+               <img class="contact-item-img" src="./assets/map.svg" alt="map">
+               <span class="contact-item">Minsk, Belarus</span>
+             </li>
+             <li class="contacts-item">
+               <img class="contact-item-img" src="./assets/phone.svg" alt="phone">
+               <a class="contact-item" href="tel:+375295073586">+375 29 507 35 86</a>
+             </li>
+             <li class="contacts-item">
+                <img class="contact-item-img" src="./assets/email.svg" alt="email">
+                <a class="contact-item" href="mailto:gekleberefin@gmail.com">a.kozlovsky@gmail.com</a>
+             </li>
+             <li class="contacts-item">
+               <img class="contact-item-img" src="./assets/linkedin.svg" alt="linkedin">
+               <a class="contact-item" href="https://www.linkedin.com/in/aliaksei-kazlouski-66b750201/" target="_blank">aleksei_kozlovsky </a>
+             </li>
+             <li class="contacts-item">
+                <img class="contact-item-img" src="./assets/github.svg" alt="github">
+                <a class="contact-item" href="https://github.com/AlexeiKozlovskiy" target="_blank">My GitHub</a>
+             </li>
+             <li class="contacts-item">
+                <img class="contact-item-img" src="./assets/codewars.svg" alt="codewars">
+                <a class="contact-item" href="https://www.codewars.com/users/AlexeiKozlovskiy" target="_blank">My Codewars</a>
+             </li>
+             <li class="contacts-item">
+                <img class="contact-item-img" src="./assets/instagram.svg" alt="instagram">
+                <a class="contact-item" href="https://www.instagram.com/aleksei_kozlovsky/" target="_blank">aleksei_kozlovsky</a>
+             </li>
+             <li class="contacts-item">
+                <img class="contact-item-img" src="./assets/telegram.svg" alt="telegram">
+                <a class="contact-item" href="https://t.me/Rubi_Rod" target="_blank">Rubi_Rod</a>
+             </li>
+             <li class="contacts-item">
+                <img class="contact-item-img" src="./assets/discord.png" alt="discord">
+                <a class="contact-item" href="https://discordapp.com/users/FlexLex#6871" target="_blank">FlexLex#6871</a>
+             </li>
+            </ul>
+        </div>
+        </section>
+        <section class="left-side-education" id="education">
+          <div class="education-container">
+            <h2 class="section-title-left">Education</h2>
+            <ul class="educatio-list">
+              <li class="education-item">
+                <div class="education-item-date">2009-2013</div>
+                <a class="education-link" href="http://bgpk.bntu.by/" target=»_blank»>
+                <div class="education-item-course">Borisov State Polytechnic College,
+                <span class="education-profession">Technician</span>
+                <span class="education-status">(completed)</span></div></a>
+              </li>
+              <li class="education-item">
+                <div class="education-item-date">2013-2019</div>
+                <a class="education-link" href="https://bntu.by/" target=»_blank»>
+                <div class="education-item-course">Belarusian National Technical University,
+                <span class="education-profession">Engineer</span>
+                <span class="education-status">(completed)</span></div></a>
+              </li>
+              <li class="education-item">
+                <div class="education-item-date">2022-now</div>
+                <a class="education-link" href="https://rs.school/js/" target=»_blank»>
+                <div class="education-item-course">RS-School JavaScript - Front-end,
+                <span class="education-profession">Developer</span>
+                <span class="education-status">(in progress)</span></div></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+    </div>
+    <div class="main-center"></div>
+    <div class="main-right-side">
+      <section class="right-side-page-title">
+        <div class="page-title-container">
+          <div class="wrapper">
+            <h1 class="page-title-main">Aleksei Kozlovsky</h1>
+            <h3 class="page-title-subtitle">Front-End developer</h3>
+          </div>
+        </div>
+      </section>
+        <figure class="right-side-avatar-block">
+          <img class="right-side-avatar" src="./assets/avatar.jpg" alt="avatar">
+        </figure>
+        <section class="right-side-about-me" id="about-me">
+          <div class="about-me-container">
+            <h2 class="section-title">About me</h2>
+            <div class="wrapper">
+              <p class="about-me-text">
+                I graduated from the Borisov State Polytechnic College with a degree in mechanical engineering, 
+                and then I graduated from the Belarusian State Polytechnic University, also in the same specialty in mechanical engineering.
+                Currently, I have been working as a process engineer in the rolling stock technology department.
+                I want to learn JavaScript so that after studying I can become a good programmer.
+              </p>
+            </div>
+           </div>
+        </section>
+        <section class="right-side-skills" id="skills">
+          <div class="skills-container">
+            <h2 class="section-title">Skills</h2>
+            <div class="wrapper">
+              <ul class="skills-list">
+                <li class="skill-item">HTML&CSS</li>
+                <li class="skill-item">JavaScript Front-End</li>
+                <li class="skill-item">Git, GitHub</li>
+                <li class="skill-item">VSCode</li>
+                <li class="skill-item">Adobe Photoshop</li>
+                <li class="skill-item">Adobe Lightroom</li>
+                <li class="skill-item">Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="right-side-code-example" id="code-example">
+          <div class="code-example-container">
+            <h2 class="section-title">Code Example</h2>
+            <div class="wrapper">
+              <code class="code">
+                function solution(number){ <br>
+                let x = 0 <br>
+                for (let i = 1; i &lt; number; i++) { <br>
+                i % 3 == 0 || i % 5 == 0 ? x += i : x <br>
+                } <br>
+                return x <br>
+                }
+              </code>
+            </div>
+          </div>
+        </section>
+        <section class="right-side-my-projects" id="my-projects">
+        <div class="my-projects-container">
+          <h2 class="section-title">My projects</h2>
+          <div class="wrapper">
+            <ul class="my-projects-list">
+              <li class="my-project-item">
+                <a class="my-project-link" href="https://alexeikozlovskiy.github.io/Virtual-keyboard/" target="_blank">
+                  <h3 class="my-project-title">Virtual keyboard</h3>
+                  <img class="my-project-page" src="./assets/Virtual-keyboard.png" alt="Virtual-keyboard">
+                </a>
+              </li>
+              <li class="my-project-item">
+                <a class="my-project-link" href="https://rolling-scopes-school.github.io/alexeikozlovskiy-JSFE2022Q1/shelter/pages/main/" target="_blank">
+                  <h3 class="my-project-title">Shelter</h3>
+                  <img class="my-project-page" src="./assets/shelter.png" alt="Shelter">
+                </a>
+              </li>
+              <li class="my-project-item">
+                <a class="my-project-link" href="https://alexeikozlovskiy.github.io/cssMemSlider/" target="_blank">
+                  <h3 class="my-project-title">cssMemSlider</h3>
+                  <img class="my-project-page" src="./assets/cssMemSlider.png" alt="cssMemSlider">
+                </a>
+              </li>
+              <li class="my-project-item">
+                <a class="my-project-link" href="https://rolling-scopes-school.github.io/alexeikozlovskiy-JSFEPRESCHOOL2022Q2/travel/" target="_blank">
+                  <h3 class="my-project-title">Travel</h3>
+                  <img class="my-project-page" src="./assets/travel.png" alt="cssMemSlider">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </section>
+        <section class="right-side-languages" id="languages">
+          <div class="languages-container">
+            <h2 class="section-title">Languages</h2>
+            <div class="wrapper">
+              <ul class="languages-list">
+                <li class="language-item">English - Pre-Intermediate</li>
+                <li class="language-item">Russian - Native</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="right-side-hobbis" id="hobbis">
+          <div class="languages-container">
+            <h2 class="section-title">Hobbis</h2>
+            <div class="wrapper">
+              <ul class="hobbis-list">
+                <li class="hobbis-item">Photography, photo editing, color correction.</li>
+                <li class="hobbis-item">Building portable music speakers, subwoofers. </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-github">
+        <a class="github-link" href="https://github.com/AlexeiKozlovskiy" target="_blank">My GitHub</a>
+      </div>
+      <div class="footer-copyright">© 2022 by Aleksei Kozlovsky</div>
+      <div class="footer-rsschool">
+        <a class="rsschool-link" href="https://rs.school/js/" target="_blank">
+          <img class="rsschool-logo" src="./assets/rs-logo.svg" alt="rsschool-logo">
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>  
+<script src="./index.js"></script>
 </body>
 </html>
