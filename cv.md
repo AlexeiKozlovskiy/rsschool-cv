@@ -22,6 +22,7 @@ I work as a process engineer. I have a secondary special and higher engineering 
 * HTML5, CCS3
 * Git/GitHub
 * JavaScript
+* Webpack
 * Adobe Photoshop, Adobe Lightroom Classic
 
 ```
