@@ -21,7 +21,7 @@ I work as a process engineer. I have a secondary special and higher engineering 
 ## Skills:
 * HTML5, CCS3
 * Git/GitHub
-* JavaScript (first level)
+* JavaScript
 * Adobe Photoshop, Adobe Lightroom Classic
 
 ```
