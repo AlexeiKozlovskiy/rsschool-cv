@@ -2,7 +2,7 @@
 # Alexei Kozlovskiy
 
 ## My Contact Info:
-**Phone:** +375(29)5073586
+**Phone:** ***
 
 **GitHub:** [AlexeiKozlovskiy](https://github.com/AlexeiKozlovskiy)
 
